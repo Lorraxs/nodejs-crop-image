@@ -2,6 +2,7 @@ const sharp = require('sharp');
 
 var fs = require('fs');
 var dir = 'C:\\LR_CORE\\txData\\CFXDefault_9E95EC.base\\clothes\\weapon\\'
+var dst = 'C:\\LR_CORE\\txData\\CFXDefault_9E95EC.base\\cropped_clothes\\weapon\\'
 fs.readdir(dir, (err, filesname)=>{
     filesname.forEach((filename)=>{
         console.log(filename)
